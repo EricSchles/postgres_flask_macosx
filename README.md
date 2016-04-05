@@ -9,4 +9,6 @@ Connecting to postgres:
 ```
 from sqlalchemy import create_engine
 engine = create_engine("postgresql://iamauser:thatpasswordyouentered@localhost/test")
+con = engine.connect()
+con.execute()
 ```
