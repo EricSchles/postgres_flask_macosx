@@ -15,3 +15,17 @@ con.execute()
 print engine.table_names() # list all the table names
 ```
 
+Using Postgresql from the command line:
+
+create table:
+
+```
+CREATE TABLE table_name(
+   column1 datatype,
+   column2 datatype,
+   column3 datatype,
+   .....
+   columnN datatype,
+   PRIMARY KEY( one or more columns )
+);
+```
