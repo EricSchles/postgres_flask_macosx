@@ -29,3 +29,16 @@ CREATE TABLE table_name(
    PRIMARY KEY( one or more columns )
 );
 ```
+
+insert table:
+
+```
+INSERT INTO films (code, title, did, date_prod, kind)
+    VALUES ('T_601', 'Yojimbo', 106, '1961-06-16', 'Drama');
+```
+
+select table:
+
+```
+SELECT * FROM table;
+```
