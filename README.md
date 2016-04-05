@@ -3,8 +3,8 @@
 * Listing all the users: `psql -l`
 * Create user: `createuser -P -s -e -d username`
 * Create DB: `createdb tester`
+* running postgresql: `psql [database_name]`
 
-test
 Connecting to postgres:
 
 ```
@@ -14,3 +14,4 @@ con = engine.connect()
 con.execute()
 print engine.table_names() # list all the table names
 ```
+
