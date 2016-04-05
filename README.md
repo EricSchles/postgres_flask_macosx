@@ -4,6 +4,7 @@
 * Create user: `createuser -P -s -e -d username`
 * Create DB: `createdb tester`
 
+test
 Connecting to postgres:
 
 ```
