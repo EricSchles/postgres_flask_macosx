@@ -42,3 +42,8 @@ select table:
 ```
 SELECT * FROM table;
 ```
+
+Listing current dbs: `\list`
+
+Listing all current db tables: `\dt`
+
