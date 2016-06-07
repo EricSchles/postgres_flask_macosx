@@ -2,9 +2,9 @@
 
 * Listing all the users: `psql -l`
 * Create user: `createuser -P -s -e -d username`
-* Create DB: `createdb tester`
+* Create DB: `createdb [database_name]`
 * running postgresql: `psql [database_name]`
-
+* delete DB: `dropdb [database_name]`
 Connecting to postgres:
 
 ```
