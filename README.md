@@ -47,3 +47,8 @@ Listing current dbs: `\list`
 
 Listing all current db tables: `\dt`
 
+[Making a user a super user](http://stackoverflow.com/questions/15791406/logged-in-as-postgres-but-getting-the-error-createuser-creation-of-new-role-fai)
+
+`psql -U [existing user] -d template1`
+
+`alter user postgres superuser;`
